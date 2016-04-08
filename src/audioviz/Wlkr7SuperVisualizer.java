@@ -9,6 +9,7 @@ package audioviz;
 
 
 import static java.lang.Integer.min;
+import static java.lang.Math.sin;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.AnchorPane;
@@ -84,7 +85,7 @@ public class Wlkr7SuperVisualizer implements Visualizer{
         {
             Rectangle rectangle = new Rectangle();
             rectangle.setX(bandWidth*i);
-            rectangle.setY(height/4);
+            rectangle.setY(height/2 - sin(rectangle.getX()*100));
             rectangle.setWidth(bandWidth);
             rectangle.setHeight(minHeight);
             rectangle.setArcWidth(5);
