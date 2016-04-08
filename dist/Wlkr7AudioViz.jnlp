@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Wlkr7AudioViz.jnlp">
+  <information>
+    <title>Wlkr7AudioViz</title>
+    <vendor>dale</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Wlkr7AudioViz.jar" size="390990" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="Wlkr7AudioViz" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="audioviz.AudioViz"  name="Wlkr7AudioViz" />
+  <update check="always"/>
+</jnlp>
